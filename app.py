@@ -1,5 +1,5 @@
 # encoding: utf-8
-from flask import Flask, url_for, redirect, render_template, session, request
+from flask import Flask, url_for, redirect, render_template, session, request, views, jsonify
 import config
 from models import Article, Tag, User, article_tag
 from extension import db
@@ -22,29 +22,31 @@ class PhoneNumberConverter(BaseConverter):
 app.url_map.converters['tel'] = PhoneNumberConverter
 
 
-@app.route('/')
-def index():
-    return render_template('Container/index.html',)
+# 类视图例一 只要在子类中实现get_data方法, 就可以返回json数据, 减少代码量
+class JSONView(views.View):
+    def get_data(self):
+        raise NotImplementedError
+
+    def dispatch_request(self):
+        return jsonify(self.get_data())
 
 
-@app.route('/homepage/')
-@login_required
-def homepage():
-    msg = datetime.now()
-    return render_template('Container/HomePage.html', msg=msg)
+# 类视图例二 父类中定义的self变量, 子类可以直接调用 **self.param, 并且可以通过self.param.update()更新自己的参数
+class ParamView(views.View):
+    def __init__(self):
+        super(ParamView, self).__init__()
+        self.param = {}
 
 
-@app.route('/blog/', methods=['GET', 'POST'])
-@login_required
-def blog():
-    return render_template('Container/blog.html')
+# 类视图例三 基于请求方法的类视图 实现登陆
+class LoginView(views.MethodView):
+    def __render(self, error=None):
+        return render_template('Container/login.html', error=error)
 
+    def get(self,):
+        return self.__render()
 
-@app.route('/login/', methods=['GET', 'POST'])
-def login():
-    if request.method == 'GET':
-        return render_template('Container/login.html',)
-    else:
+    def post(self):
         email = request.form.get('email')
         password = request.form.get('password')
         user = User.query.filter(User.email == email).first()
@@ -55,8 +57,28 @@ def login():
             session.permanent = True
             return redirect(url_for('index'))
         else:
-            message = u'该邮箱尚未注册'
-            return render_template('Container/login.html', message=message)
+            return self.__render(error=u'用户名或密码错误')
+
+
+app.add_url_rule('/login/', view_func=LoginView.as_view('login'))
+
+
+@app.route('/')
+def index():
+    return render_template('Container/index.html',)
+
+
+@app.route('/homepage/')
+@login_required
+def homepage():
+    time = datetime(2018, 11, 23, 15, 45, 27)
+    return render_template('Container/HomePage.html', time=time)
+
+
+@app.route('/blog/', methods=['GET', 'POST'])
+@login_required
+def blog():
+    return render_template('Container/blog.html')
 
 
 @app.route('/logout/')
@@ -115,15 +137,18 @@ def loginState():
 
 
 # 模板过滤器
+# 测试用过滤器
 @app.template_filter('cut')
 def cut(value):
     value = value.replace("hello", '')
     return value
 
 
+# 时间过滤器
 @app.template_filter('handle_time')
 def handle_time(time):
     if isinstance(time, datetime):
+        print('time')
         now = datetime.now()
         time_gap = (now - time).total_seconds()
         if time_gap < 60:
@@ -132,10 +157,13 @@ def handle_time(time):
             minutes = time_gap/60
             return u'%s分钟前' % int(minutes)
         elif 60*60 <= time_gap < 60*60*24:
-            days = time_gap/(60*60)
+            hour = time_gap/(60*60)
+            return u'%s小时前' % int(hour)
+        elif 60*60*24 <= time_gap < 60*60*24*7:
+            days = time_gap / (60*60*24)
             return u'%s天前' % int(days)
         else:
-            return time
+            return time.strftime("%Y-%m-%d %H:%M:%S")
     else:
         return time
 

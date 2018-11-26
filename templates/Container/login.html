@@ -23,5 +23,8 @@
                 <td width="50%" style="text-align: right"><a href="">忘记密码</a></td>
             </tr>
         </table>
+        {% if error %}
+            <p style="color: red">{{ error }}</p>
+        {% endif %}
     </div>
 {% endblock %}

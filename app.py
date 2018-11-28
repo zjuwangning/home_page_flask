@@ -2,6 +2,8 @@
 from flask import Flask, url_for, redirect, render_template, session, request, views, jsonify
 from blueprints.user import user_bp
 from blueprints.account import LoginView, account_bp
+from blueprints.file import file_bp
+from blueprints.setu import set_bp
 import config
 from models import User
 from extension import db
@@ -14,6 +16,8 @@ app = Flask(__name__)
 # 注册蓝图
 app.register_blueprint(user_bp)
 app.register_blueprint(account_bp)
+app.register_blueprint(file_bp)
+app.register_blueprint(set_bp)
 # 引入配置文件
 app.config.from_object(config)
 # 初始化一个db对象
@@ -57,12 +61,6 @@ def index():
 @login_required
 def blog():
     return render_template('Container/blog.html')
-
-
-@app.route('/Contents/')
-@login_required
-def contents():
-    return render_template('Container/Contents.html')
 
 
 # 上下文处理器

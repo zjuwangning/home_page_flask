@@ -1,0 +1,30 @@
+{% extends 'BaseTemplate/NavigationBar.html' %}
+{% block title %}个人信息设置{% endblock %}
+{% block head %}
+    <style>
+        .username-input{
+            background-color: ghostwhite;
+        }
+    </style>
+{% endblock %}
+{% block main %}
+    <div class="form-container">
+        <h3 style="text-align: center">个人信息设置</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>{{ form.username.label }}</td>
+                    <td>{{ form.username(class='username-input') }}</td>
+                </tr>
+                <tr>
+                    <td>{{ form.tag.label }}</td>
+                    <td>{{ form.tag() }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="提交"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

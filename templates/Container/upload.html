@@ -1,0 +1,32 @@
+{% extends 'BaseTemplate/NavigationBar.html' %}
+{% block title %}文件上传{% endblock %}
+{% block head %}
+    <style>
+        .username-input{
+            background-color: ghostwhite;
+        }
+    </style>
+{% endblock %}
+{% block main %}
+    <div class="form-container">
+        <h3 style="text-align: center">文件上传</h3>
+        <form action="" method="post" enctype="multipart/form-data">
+            <table>
+                <tbody>
+                <tr>
+                    <td>上传头像:&nbsp;</td>
+                    <td><input type="file" name="avatar"></td>
+                </tr>
+                <tr>
+                    <td>描述: </td>
+                    <td><input type="text" name="desc"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit">提交</td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+{% endblock %}

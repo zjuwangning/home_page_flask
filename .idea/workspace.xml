@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbcd19ba-88fc-4423-9d80-8060345a993a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blueprints/file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprints/setu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Container/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Container/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Container/display.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprints/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprints/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprints/setu.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/setu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/BaseTemplate/NavigationBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BaseTemplate/NavigationBar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Container/Contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Container/contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Container/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Container/HomePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Container/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Container/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Container/Contents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Container/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Container/contents.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/HomePage$untitled.coverage" NAME="HomePage Coverage Results" MODIFIED="1542954212481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HomePage$HomePage.coverage" NAME="HomePage Coverage Results" MODIFIED="1543298609252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HomePage$HomePage.coverage" NAME="HomePage Coverage Results" MODIFIED="1543478001088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/firstFlask$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1539912907264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -101,16 +95,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="585" />
-          <entry key="PLAIN_TEXT" value="61" />
-          <entry key="Python" value="3042" />
+          <entry key="HTML" value="696" />
+          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="Python" value="3357" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="13" />
+          <entry key="HTML" value="15" />
           <entry key="Python" value="27" />
           <entry key="RNG Compact" value="1" />
         </counts>
@@ -119,16 +113,16 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="13" />
+          <entry key="html" value="15" />
           <entry key="py" value="27" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="585" />
-          <entry key="py" value="3042" />
-          <entry key="txt" value="61" />
+          <entry key="html" value="696" />
+          <entry key="py" value="3357" />
+          <entry key="txt" value="90" />
         </counts>
       </usages-collector>
     </session>
@@ -138,10 +132,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="233">
+              <caret line="80" column="25" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="25" />
               <folding>
                 <element signature="e#18#111#0" expanded="true" />
+                <element signature="e#760#886#0" />
+                <element signature="e#1000#1085#0" />
                 <element signature="e#1540#1713#0" />
                 <element signature="e#1906#2522#0" />
                 <marker date="1543398256388" expanded="true" signature="444:447" ph="..." />
@@ -151,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blueprints/file.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blueprints/setu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#32#106#0" expanded="true" />
               </folding>
@@ -163,13 +159,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blueprints/setu.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Container/display.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="168">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
-                <element signature="e#32#106#0" expanded="true" />
+                <element signature="e#115#141#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,10 +174,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="216">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <element signature="e#111#137#0#HTML" expanded="true" />
+                <element signature="e#115#141#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,6 +192,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/BaseTemplate/NavigationBar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="41" column="93" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -203,8 +208,8 @@
       <list>
         <option value="Flask Main" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -230,6 +235,7 @@
       <find>static</find>
       <find>logout</find>
       <find>register</find>
+      <find>path_list</find>
       <find>print</find>
     </findStrings>
     <dirStrings>
@@ -272,11 +278,13 @@
         <option value="$PROJECT_DIR$/blueprints/account.py" />
         <option value="$PROJECT_DIR$/blueprints/user.py" />
         <option value="$PROJECT_DIR$/templates/Container/setting.html" />
-        <option value="$PROJECT_DIR$/templates/Container/contents.html" />
         <option value="$PROJECT_DIR$/templates/Container/upload.html" />
         <option value="$PROJECT_DIR$/blueprints/file.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/Container/displaypic.html" />
         <option value="$PROJECT_DIR$/templates/BaseTemplate/NavigationBar.html" />
+        <option value="$PROJECT_DIR$/templates/Container/contents.html" />
+        <option value="$PROJECT_DIR$/templates/Container/display.html" />
         <option value="$PROJECT_DIR$/blueprints/setu.py" />
       </list>
     </option>
@@ -309,7 +317,19 @@
             <path>
               <item name="HomePage" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="blueprints" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomePage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseTemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomePage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Container" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543313273420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.wtforms表单验证&#10;2.setU站点初步">
+      <created>1543398876637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543398876637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -413,12 +440,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49916387" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916387" visible="true" weight="0.21824104" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49916387" visible="true" weight="0.24972856" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,7 +473,8 @@
     <MESSAGE value="fix bugs" />
     <MESSAGE value="1.增加了一个模板过滤器功能&#10;2.实现了一个时间格式过滤器&#10;3.数据库迁移记录" />
     <MESSAGE value="使用蓝图做了模块化" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用蓝图做了模块化" />
+    <MESSAGE value="1.wtforms表单验证&#10;2.setU站点初步" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.wtforms表单验证&#10;2.setU站点初步" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../temp/app.py" />
@@ -668,30 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#18#111#0" expanded="true" />
-            <element signature="e#1540#1713#0" />
-            <element signature="e#1906#2522#0" />
-            <marker date="1543398256388" expanded="true" signature="444:447" ph="..." />
-            <marker date="1543398256388" expanded="true" signature="813:1298" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/BaseTemplate/NavigationBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Container/setting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -727,30 +731,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#111#137#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blueprints/file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="526">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="e#32#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/BaseTemplate/NavigationBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="41" column="93" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#111#0" expanded="true" />
+            <element signature="e#760#886#0" />
+            <element signature="e#1000#1085#0" />
+            <element signature="e#1540#1713#0" />
+            <element signature="e#1906#2522#0" />
+            <marker date="1543398256388" expanded="true" signature="444:447" ph="..." />
+            <marker date="1543398256388" expanded="true" signature="813:1298" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Container/display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#141#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#115#141#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blueprints/setu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#32#106#0" expanded="true" />
           </folding>

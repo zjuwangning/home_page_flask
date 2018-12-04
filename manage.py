@@ -14,6 +14,7 @@ migrate = Migrate(app, db)
 manage.add_command('db', MigrateCommand)
 
 
+# 测试
 @manage.command
 def runserver():
     print('run server')

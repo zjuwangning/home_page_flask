@@ -1,5 +1,5 @@
 # encoding: utf-8
-from flask import Flask, url_for, redirect, render_template, session, request, views, jsonify
+from flask import Flask, url_for, redirect, render_template, session, request, views, jsonify, g
 from blueprints.user import user_bp
 from blueprints.account import LoginView, account_bp
 from blueprints.file import file_bp
@@ -61,17 +61,6 @@ def index():
 @login_required
 def blog():
     return render_template('Container/blog.html')
-
-
-# 上下文处理器
-@app.context_processor
-def loginState():
-    user_id = session.get('userId')
-    if user_id:
-        user = User.query.filter(User.id == user_id).first()
-        if user:
-            return {'user': user}
-    return {}
 
 
 # 模板过滤器

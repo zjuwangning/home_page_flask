@@ -1,0 +1,13 @@
+{% extends 'BaseTemplate/NavigationBar.html' %}
+{% block title %}目录查看{% endblock %}
+{% block main %}
+<div>
+    <h1 style="text-align: center">目录</h1>
+    <ul>
+        {% for key, value in path_dict.items() %}
+            <li><a href="{{ url_for('set.display_path', pathname=key) }}">{{ key }}</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('file.upload') }}">上传</a>
+</div>
+{% endblock %}

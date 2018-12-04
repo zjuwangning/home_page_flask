@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbcd19ba-88fc-4423-9d80-8060345a993a" name="Default Changelist" comment="钩子函数学习及使用">
+    <list default="true" id="cbcd19ba-88fc-4423-9d80-8060345a993a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/Container/contents.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blueprints/setu.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/setu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Container/Contents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Container/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Container/contents.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="18" />
+          <entry key="HTML" value="19" />
           <entry key="Python" value="35" />
           <entry key="RNG Compact" value="1" />
         </counts>
@@ -111,7 +111,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="18" />
+          <entry key="html" value="19" />
           <entry key="py" value="35" />
           <entry key="rnc" value="1" />
         </counts>
@@ -127,17 +127,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+            <state relative-caret-position="328">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
               <folding>
                 <element signature="e#18#114#0" expanded="true" />
                 <element signature="e#760#886#0" />
                 <element signature="e#1000#1085#0" />
-                <marker date="1543906426718" expanded="true" signature="447:450" ph="..." />
-                <marker date="1543906426718" expanded="true" signature="816:1301" ph="..." />
+                <marker date="1543907039382" expanded="true" signature="423:426" ph="..." />
+                <marker date="1543907039382" expanded="true" signature="792:1277" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="e#115#141#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,11 +167,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueprints/account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="408">
               <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#34#122#0" expanded="true" />
                 <element signature="e#382#844#0" />
+                <element signature="e#909#1463#0" />
                 <element signature="e#1703#2566#0" />
               </folding>
             </state>
@@ -201,16 +214,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blueprints/setu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="439">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#32#106#0" expanded="true" />
               </folding>
@@ -321,8 +329,8 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/extension.py" />
         <option value="$PROJECT_DIR$/templates/Container/contents.html" />
-        <option value="$PROJECT_DIR$/blueprints/setu.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/blueprints/setu.py" />
       </list>
     </option>
   </component>
@@ -480,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543906117270</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="钩子函数学习及使用">
+      <created>1543906498154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543906498154</updated>
+    </task>
+    <task id="LOCAL-00008" summary="钩子函数学习及使用">
+      <created>1543906577893</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543906577893</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -500,7 +522,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49916387" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49916387" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49916387" weight="0.07057546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -778,8 +800,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#18#114#0" expanded="true" />
+            <element signature="e#760#886#0" />
+            <element signature="e#1000#1085#0" />
+            <marker date="1543907039382" expanded="true" signature="423:426" ph="..." />
+            <marker date="1543907039382" expanded="true" signature="792:1277" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#141#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -790,11 +833,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blueprints/account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="408">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#34#122#0" expanded="true" />
             <element signature="e#382#844#0" />
+            <element signature="e#909#1463#0" />
             <element signature="e#1703#2566#0" />
           </folding>
         </state>
@@ -814,24 +858,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blueprints/setu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="439">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#32#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
-          <folding>
-            <element signature="e#18#114#0" expanded="true" />
-            <element signature="e#760#886#0" />
-            <element signature="e#1000#1085#0" />
-            <marker date="1543906426718" expanded="true" signature="447:450" ph="..." />
-            <marker date="1543906426718" expanded="true" signature="816:1301" ph="..." />
           </folding>
         </state>
       </provider>

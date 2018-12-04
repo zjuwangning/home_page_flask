@@ -18,7 +18,7 @@ sub_path_dict = {}
 @login_required
 def contents():
     if request.method == 'GET':
-        pass
+        return render_template('Container/contents.html', path_dict=path_dict)
     else:
         pass
 

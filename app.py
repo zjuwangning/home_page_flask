@@ -93,5 +93,16 @@ def handle_time(time):
         return time
 
 
+# 上下文钩子函数 必须返回一个字典 字典中的键可以以参数形式 在所有模板中使用
+@app.context_processor
+def login_state():
+    user_id = session.get('userId')
+    if user_id:
+        user = User.query.filter(User.id == user_id).first()
+        if user:
+            return {'user': user}
+    return {}
+
+
 if __name__ == '__main__':
     app.run()

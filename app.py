@@ -5,6 +5,7 @@ from blueprints.account import LoginView, account_bp
 from blueprints.file import file_bp
 from blueprints.setu import set_bp
 import config
+from models import User
 from extension import db
 from decorator import login_required
 from werkzeug.routing import BaseConverter

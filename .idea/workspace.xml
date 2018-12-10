@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbcd19ba-88fc-4423-9d80-8060345a993a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Container/contents.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprints/setu.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprints/setu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +92,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="697" />
-          <entry key="PLAIN_TEXT" value="143" />
-          <entry key="Python" value="3736" />
+          <entry key="PLAIN_TEXT" value="163" />
+          <entry key="Python" value="3744" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -119,25 +117,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="697" />
-          <entry key="py" value="3736" />
-          <entry key="txt" value="143" />
+          <entry key="py" value="3744" />
+          <entry key="txt" value="163" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="343">
+              <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
               <folding>
                 <element signature="e#18#114#0" expanded="true" />
                 <element signature="e#760#886#0" />
                 <element signature="e#1000#1085#0" />
-                <marker date="1543907039382" expanded="true" signature="423:426" ph="..." />
-                <marker date="1543907039382" expanded="true" signature="792:1277" ph="..." />
+                <marker date="1544440094647" expanded="true" signature="447:450" ph="..." />
+                <marker date="1544440094647" expanded="true" signature="816:1301" ph="..." />
               </folding>
             </state>
           </provider>
@@ -214,7 +212,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueprints/setu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
@@ -329,8 +327,8 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/extension.py" />
         <option value="$PROJECT_DIR$/templates/Container/contents.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/blueprints/setu.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -362,11 +360,6 @@
             <path>
               <item name="HomePage" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="blueprints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,12 +367,6 @@
               <item name="HomePage" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="BaseTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Container" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,7 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543906577893</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="钩子函数学习及使用">
+      <created>1543907117874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543907117874</updated>
+    </task>
+    <task id="LOCAL-00010" summary="钩子函数 - 增加了一个登陆状态检测的钩子函数">
+      <created>1544440012466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544440012466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -518,7 +519,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -554,7 +555,8 @@
     <MESSAGE value="1.wtforms表单验证&#10;2.setU站点初步" />
     <MESSAGE value="1.os模块部分使用,文件/目录等&#10;2.目录获取, 图片浏览, 文件上传" />
     <MESSAGE value="钩子函数学习及使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="钩子函数学习及使用" />
+    <MESSAGE value="钩子函数 - 增加了一个登陆状态检测的钩子函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="钩子函数 - 增加了一个登陆状态检测的钩子函数" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../temp/app.py" />
@@ -800,30 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="e#18#114#0" expanded="true" />
-            <element signature="e#760#886#0" />
-            <element signature="e#1000#1085#0" />
-            <marker date="1543907039382" expanded="true" signature="423:426" ph="..." />
-            <marker date="1543907039382" expanded="true" signature="792:1277" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#115#141#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -862,6 +840,30 @@
           <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#32#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Container/contents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#141#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding>
+            <element signature="e#18#114#0" expanded="true" />
+            <element signature="e#760#886#0" />
+            <element signature="e#1000#1085#0" />
+            <marker date="1544440094647" expanded="true" signature="447:450" ph="..." />
+            <marker date="1544440094647" expanded="true" signature="816:1301" ph="..." />
           </folding>
         </state>
       </provider>
